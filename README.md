@@ -76,7 +76,7 @@ dog.speak();
 
 ### 3. 不同点：接收参数的方式不同
     apply()方法 接收两个参数，一个是函数运行的作用域（this），另一个是参数数组
-    语法：<span bgcolor=orange>apply([thisObj [,argArray] ]);</span>，调用一个对象的一个方法，2另一个对象替换当前对象
+    语法：apply([thisObj [,argArray] ]);，调用一个对象的一个方法，2另一个对象替换当前对象
     说明：如果argArray不是一个有效数组或不是arguments对象，那么将导致一个 TypeError，如果没有提供argArray和thisObj任何一
     个参数，那么Global对象将用作thisObj
 
