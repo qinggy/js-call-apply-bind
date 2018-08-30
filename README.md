@@ -77,13 +77,13 @@ dog.speak();
 ### 3. 不同点：接收参数的方式不同
     apply()方法 接收两个参数，一个是函数运行的作用域（this），另一个是参数数组
     语法：<span bgcolor=orange>apply([thisObj [,argArray] ]);</span>，调用一个对象的一个方法，2另一个对象替换当前对象
-    说明：如果argArray不是一个有效数组或不是arguments对象，那么将导致一个 TypeError，如果没有提供argArray和thisObj任何一个参数，
-    那么Global对象将用作thisObj
+    说明：如果argArray不是一个有效数组或不是arguments对象，那么将导致一个 TypeError，如果没有提供argArray和thisObj任何一
+    个参数，那么Global对象将用作thisObj
 
     call()方法 第一个参数和apply()方法的一样，但是传递给函数的参数必须列举出来
     语法：call([thisObject[,arg1 [,arg2 [,...,argn]]]]);，应用某一对象的一个方法，用另一个对象替换当前对象
-    说明：call方法可以用来代替另一个对象调用一个方法，call方法可以将一个函数的对象上下文从初始的上下文改变为thisObj指定的新对象，
-    如果没有提供thisObj参数，那么Global对象被用于thisObj
+    说明：call方法可以用来代替另一个对象调用一个方法，call方法可以将一个函数的对象上下文从初始的上下文改变为thisObj指定的
+    新对象，如果没有提供thisObj参数，那么Global对象被用于thisObj
 
 使用示例1：
 ``` js
